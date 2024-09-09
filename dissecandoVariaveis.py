@@ -1,0 +1,8 @@
+informação = input('Me informe algo que irei te trazer informações sobre: ')
+print ('A inoformação só tem espaço? ',informação.isspace())
+print ('A informação contém apenas letras?',informação.isalpha())
+print ('A informação contém apenas letras ou números?',informação.isalnum())
+print ('A informação contém apenas números?',informação.isnumeric())
+print ('A informação contém apenas números decimais?',informação.isdecimal())
+print ('A informação contém letra maiúscula em seu início?',informação.istitle())
+print ('A informação contém apenas letras minúsculas?',informação.islower())  
